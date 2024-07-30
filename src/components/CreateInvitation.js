@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import './CreateInvitation.css';
-import background from '../images/White And Beige Minimalistic Calendar Wedding Invitation.png'; // Проверьте путь к изображению
+import background from '../images/WhiteAndBeigeMinimalisticCalendarWeddingInvitation.png'; // Проверьте путь к изображению
 
 function CreateInvitation() {
   const [groomName, setGroomName] = useState('жених');

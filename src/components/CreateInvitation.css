@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@400;700&family=Liana&display=swap');
 @import url('react-calendar/dist/Calendar.css');
-@import url('../images/White\ And\ Beige\ Minimalistic\ Calendar\ Wedding\ Invitation.png'); /* Убедитесь, что путь к изображению правильный */
 
 .create-invitation-container {
   display: flex;
@@ -20,7 +19,7 @@
   overflow-y: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-image: url('../images/WhiteAndBeigeMinimalisticCalendarWeddingInvitation.png'); /* Убедитесь, что путь к изображению правильный */
+  background-image: url('../images/WhiteAndBeigeMinimalisticCalendarWeddingInvitation.png');
 }
 
 .wedding-title {
@@ -33,7 +32,7 @@
 
 .names {
   font-family: 'Liana', cursive;
-  font-size: 36px; /* Увеличен размер шрифта */
+  font-size: 36px; /* Increased font size */
   text-align: center;
   color: #D48C68;
   margin-bottom: 10px;
@@ -54,7 +53,7 @@
 
 .wedding-calendar {
   margin: 10px auto;
-  width: 250px; /* Уменьшите ширину */
+  width: 250px; /* Reduced width */
 }
 
 .react-calendar {
@@ -64,7 +63,7 @@
 }
 
 .react-calendar__tile {
-  padding: 5px 0; /* Уменьшите отступы */
+  padding: 5px 0; /* Reduced padding */
   background: #f9f9f9;
   color: #333;
   border-radius: 6px;
@@ -138,7 +137,7 @@ button:hover {
   }
   
   .names {
-    font-size: 28px; /* Увеличен размер шрифта */
+    font-size: 28px; /* Increased font size */
   }
 
   .wedding-title {
