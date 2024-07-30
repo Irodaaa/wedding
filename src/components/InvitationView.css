@@ -1,0 +1,76 @@
+.invitation-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f4f4f9;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .invitation-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .header {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .content {
+    padding: 10px 0;
+  }
+  
+  .date-time, .location, .description {
+    margin-bottom: 15px;
+  }
+  
+  .date-time p, .location p, .description p {
+    margin: 0;
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .date-time span, .location span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .audio-container {
+    margin-top: 20px;
+  }
+  
+  /* Адаптивные стили */
+  @media (max-width: 768px) {
+    .invitation-card {
+      padding: 15px;
+      max-width: 100%;
+    }
+  
+    .header h1 {
+      font-size: 20px;
+    }
+  
+    .date-time p, .location p, .description p {
+      font-size: 14px;
+    }
+  
+    .audio-container {
+      margin-top: 15px;
+    }
+  }
+  

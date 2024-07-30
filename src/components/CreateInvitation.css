@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@400;700&family=Liana&display=swap');
+@import url('react-calendar/dist/Calendar.css');
+@import url('../images/White\ And\ Beige\ Minimalistic\ Calendar\ Wedding\ Invitation.png'); /* Убедитесь, что путь к изображению правильный */
+
+.create-invitation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.invitation-card {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow-y: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-image: url('../images/WhiteAndBeigeMinimalisticCalendarWeddingInvitation.png'); /* Убедитесь, что путь к изображению правильный */
+}
+
+.wedding-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #6B4226;
+  margin-bottom: 10px;
+}
+
+.names {
+  font-family: 'Liana', cursive;
+  font-size: 36px; /* Увеличен размер шрифта */
+  text-align: center;
+  color: #D48C68;
+  margin-bottom: 10px;
+}
+
+.wedding-details {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #333;
+}
+
+.ceremony-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #6B4226;
+}
+
+.wedding-calendar {
+  margin: 10px auto;
+  width: 250px; /* Уменьшите ширину */
+}
+
+.react-calendar {
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+
+.react-calendar__tile {
+  padding: 5px 0; /* Уменьшите отступы */
+  background: #f9f9f9;
+  color: #333;
+  border-radius: 6px;
+}
+
+.react-calendar__tile--now {
+  background: #f9f9f9;
+  font-weight: bold;
+  color: #d48c68;
+}
+
+.react-calendar__tile--active {
+  background: #d48c68;
+  color: white;
+}
+
+.react-calendar__navigation button {
+  font-family: 'Poppins', sans-serif;
+  color: #6B4226;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: #D48C68;
+}
+
+.create-invitation-form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .invitation-card {
+    max-width: 100%;
+    padding: 10px;
+  }
+  
+  .names {
+    font-size: 28px; /* Увеличен размер шрифта */
+  }
+
+  .wedding-title {
+    font-size: 20px;
+  }
+
+  .ceremony-title {
+    font-size: 18px;
+  }
+
+  .wedding-calendar {
+    font-size: 10px;
+  }
+
+  .create-invitation-form {
+    max-width: 100%;
+  }
+}

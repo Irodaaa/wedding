@@ -1,0 +1,57 @@
+/* InvitationPage.css */
+.invitation-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .invitation-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .invitation-details {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .invitation-details p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .invitation-details audio {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .invitation-page {
+    padding: 20px;
+  }
+  
+  .invitation-page h2 {
+    margin-bottom: 20px;
+  }
+  
+  .invitation-details {
+    margin-bottom: 20px;
+  }
+  
+  .style-options {
+    margin-top: 20px;
+  }
+  
+  .style-options label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .style-options select {
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+  
